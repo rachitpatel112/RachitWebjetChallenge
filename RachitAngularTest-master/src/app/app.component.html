@@ -1,0 +1,5 @@
+  <div *ngIf="Movies?.length > 0">
+  <ul>
+    <li *ngFor="let movie of Movies">{{ movie?.Title }} ({{movie?.Price}})</li>
+  </ul>
+</div>
